@@ -1,0 +1,136 @@
+{
+  "version": "6.0",
+  "nxVersion": "19.4.0",
+  "deps": {
+    "@wastelandox/diagram": "workspace:^",
+    "@wastelandox/form-design": "workspace:^",
+    "vue": "^3.4.31",
+    "@tsconfig/node20": "^20.1.4",
+    "@types/node": "^20.14.9",
+    "@vitejs/plugin-vue": "^5.0.5",
+    "@vue/tsconfig": "^0.5.1",
+    "eslint": "^9.6.0",
+    "nx": "^19.4.0",
+    "simple-git-hooks": "^2.11.1",
+    "typescript": "^5.5.3",
+    "unocss": "^0.61.0",
+    "vite": "^5.3.3",
+    "vite-plugin-vue-devtools": "^7.3.5",
+    "vitest": "^1.6.0",
+    "vue-tsc": "^2.0.24"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "projectFileMap": {
+      "@wastelandox/form-design": [
+        {
+          "file": "packages/form-design/package.json",
+          "hash": "7884796535619371009"
+        },
+        {
+          "file": "packages/form-design/src/index.ts",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "packages/form-design/tsconfig.json",
+          "hash": "7358217144632359122"
+        }
+      ],
+      "@wastelandox/diagram": [
+        {
+          "file": "packages/diagram/package.json",
+          "hash": "16641404032639859630"
+        },
+        {
+          "file": "packages/diagram/src/index.ts",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "packages/diagram/tsconfig.json",
+          "hash": "7358217144632359122"
+        }
+      ],
+      "playground": [
+        {
+          "file": "playground/env.d.ts",
+          "hash": "12946363841406869089"
+        },
+        {
+          "file": "playground/index.html",
+          "hash": "13674293646931089439"
+        },
+        {
+          "file": "playground/package.json",
+          "hash": "18318764689647749260"
+        },
+        {
+          "file": "playground/src/App.vue",
+          "hash": "7362715564449284208"
+        },
+        {
+          "file": "playground/src/Button.vue",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "playground/src/main.ts",
+          "hash": "2459391350846556701"
+        },
+        {
+          "file": "playground/tsconfig.app.json",
+          "hash": "10063920599910322329"
+        },
+        {
+          "file": "playground/tsconfig.json",
+          "hash": "6363468609005780453"
+        },
+        {
+          "file": "playground/tsconfig.node.json",
+          "hash": "17215731322077971229"
+        },
+        {
+          "file": "playground/vite.config.ts",
+          "hash": "17902408006757801321"
+        }
+      ]
+    },
+    "nonProjectFiles": [
+      {
+        "file": ".gitignore",
+        "hash": "15488762032126897597"
+      },
+      {
+        "file": ".vscode/settings.json",
+        "hash": "3512912895165180126"
+      },
+      {
+        "file": "README.md",
+        "hash": "9477643306769835216"
+      },
+      {
+        "file": "eslint.config.js",
+        "hash": "1288613804102155994"
+      },
+      {
+        "file": "nx.json",
+        "hash": "1933931062316644608"
+      },
+      {
+        "file": "package.json",
+        "hash": "4596407068767746404"
+      },
+      {
+        "file": "pnpm-workspace.yaml",
+        "hash": "2683042253828911974"
+      },
+      {
+        "file": "tsconfig.json",
+        "hash": "3376650131100283613"
+      },
+      {
+        "file": "uno.config.ts",
+        "hash": "3248323616171675026"
+      }
+    ]
+  }
+}

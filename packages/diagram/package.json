@@ -1,0 +1,7 @@
+{
+    "name": "@wastelandox/diagram",
+    "type": "module",
+    "version": "0.0.1",
+    "description": "diagram tool",
+    "license": "MIT"
+}

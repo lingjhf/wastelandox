@@ -1,0 +1,179 @@
+{
+  "nodes": {
+    "@wastelandox/form-design": {
+      "name": "@wastelandox/form-design",
+      "type": "lib",
+      "data": {
+        "root": "packages/form-design",
+        "targets": {
+          "nx-release-publish": {
+            "dependsOn": [
+              "^nx-release-publish"
+            ],
+            "executor": "@nx/js:release-publish",
+            "options": {},
+            "configurations": {}
+          }
+        },
+        "sourceRoot": "packages/form-design",
+        "name": "@wastelandox/form-design",
+        "tags": [
+          "npm:public"
+        ],
+        "metadata": {
+          "targetGroups": {},
+          "description": "form design tool"
+        },
+        "implicitDependencies": []
+      }
+    },
+    "@wastelandox/diagram": {
+      "name": "@wastelandox/diagram",
+      "type": "lib",
+      "data": {
+        "root": "packages/diagram",
+        "targets": {
+          "nx-release-publish": {
+            "dependsOn": [
+              "^nx-release-publish"
+            ],
+            "executor": "@nx/js:release-publish",
+            "options": {},
+            "configurations": {}
+          }
+        },
+        "sourceRoot": "packages/diagram",
+        "name": "@wastelandox/diagram",
+        "tags": [
+          "npm:public"
+        ],
+        "metadata": {
+          "targetGroups": {},
+          "description": "diagram tool"
+        },
+        "implicitDependencies": []
+      }
+    },
+    "playground": {
+      "name": "playground",
+      "type": "lib",
+      "data": {
+        "root": "playground",
+        "targets": {
+          "dev": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "dev"
+            },
+            "metadata": {
+              "scriptContent": "vite",
+              "runCommand": "npm run dev"
+            },
+            "configurations": {}
+          },
+          "build": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "build"
+            },
+            "metadata": {
+              "scriptContent": "run-p type-check \"build-only {@}\" --",
+              "runCommand": "npm run build"
+            },
+            "configurations": {}
+          },
+          "preview": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "preview"
+            },
+            "metadata": {
+              "scriptContent": "vite preview",
+              "runCommand": "npm run preview"
+            },
+            "configurations": {}
+          },
+          "test:unit": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "test:unit"
+            },
+            "metadata": {
+              "scriptContent": "vitest",
+              "runCommand": "npm run test:unit"
+            },
+            "configurations": {}
+          },
+          "test:e2e": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "test:e2e"
+            },
+            "metadata": {
+              "scriptContent": "playwright test",
+              "runCommand": "npm run test:e2e"
+            },
+            "configurations": {}
+          },
+          "build-only": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "build-only"
+            },
+            "metadata": {
+              "scriptContent": "vite build",
+              "runCommand": "npm run build-only"
+            },
+            "configurations": {}
+          },
+          "type-check": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "type-check"
+            },
+            "metadata": {
+              "scriptContent": "vue-tsc --build --force",
+              "runCommand": "npm run type-check"
+            },
+            "configurations": {}
+          },
+          "nx-release-publish": {
+            "dependsOn": [
+              "^nx-release-publish"
+            ],
+            "executor": "@nx/js:release-publish",
+            "options": {},
+            "configurations": {}
+          }
+        },
+        "sourceRoot": "playground",
+        "name": "playground",
+        "tags": [
+          "npm:public"
+        ],
+        "metadata": {
+          "targetGroups": {
+            "NPM Scripts": [
+              "dev",
+              "build",
+              "preview",
+              "test:unit",
+              "test:e2e",
+              "build-only",
+              "type-check"
+            ]
+          },
+          "description": "playground"
+        },
+        "implicitDependencies": []
+      }
+    }
+  },
+  "externalNodes": {},
+  "dependencies": {
+    "@wastelandox/form-design": [],
+    "@wastelandox/diagram": [],
+    "playground": []
+  },
+  "version": "6.0"
+}

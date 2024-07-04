@@ -1,0 +1,16 @@
+{
+    "name": "playground",
+    "type": "module",
+    "version": "0.0.1",
+    "description": "playground",
+    "license": "MIT",
+    "scripts": {
+        "dev": "vite",
+        "build": "run-p type-check \"build-only {@}\" --",
+        "preview": "vite preview",
+        "test:unit": "vitest",
+        "test:e2e": "playwright test",
+        "build-only": "vite build",
+        "type-check": "vue-tsc --build --force"
+    }
+}

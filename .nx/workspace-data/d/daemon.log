@@ -1,0 +1,13 @@
+[NX Daemon Server] - 2024-07-04T10:48:51.738Z - Started listening on: /tmp/96b36a40f67ba620a08d/d.sock
+[NX Daemon Server] - 2024-07-04T10:48:51.739Z - [WATCHER]: Subscribed to changes within: /home/lingj/wastelandox/wastelandox (native)
+[NX Daemon Server] - 2024-07-04T10:48:51.748Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-04T10:48:51.748Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-07-04T10:48:51.750Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-04T10:48:51.752Z - [REQUEST]: Responding to the client. handleGlob
+[NX Daemon Server] - 2024-07-04T10:48:51.752Z - Done responding to the client handleGlob
+[NX Daemon Server] - 2024-07-04T10:48:51.752Z - Handled GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-07-04T10:48:51.778Z - [REQUEST]: Responding to the client. handleNxWorkspaceFiles
+[NX Daemon Server] - 2024-07-04T10:48:51.779Z - Done responding to the client handleNxWorkspaceFiles
+[NX Daemon Server] - 2024-07-04T10:48:51.779Z - Handled GET_NX_WORKSPACE_FILES. Handling time: 1. Response time: 1.
+[NX Daemon Server] - 2024-07-04T10:48:51.788Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-07-04T10:48:52.344Z - [WATCHER]: Processing file changes in outputs
